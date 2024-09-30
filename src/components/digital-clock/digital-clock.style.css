@@ -1,0 +1,14 @@
+.clock-container {
+  backdrop-filter: blur(10px);
+  width: 100vw;
+  padding: 15px;
+
+  .clock {
+    & span {
+      color: #fff;
+      font: 500 calc(2rem + 1.5vw) monospace, sans-serif;
+      text-align: center;
+      text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.7);
+    }
+  }
+}
